@@ -8,23 +8,23 @@
     "build": "babel index.js -o index-dist.js",
     "build:watch": "babel index.js -o index-dist.js -w",
     "test": "mocha --opts mocha.opts && eslint .",
-    "test:watch": "mocha --opts mocha.opts --watch --reporter min",
-    "release": "./release.sh"
+    "test:watch": "mocha --opts mocha.opts --watch --reporter min"
   },
   "author": {
     "name": "Algolia, Inc.",
     "url": "https://github.com/algolia"
   },
   "license": "MIT",
-  "repository": "algolia/react-element-to-jsx-string",
+  "repository": "cchamberlain/react-element-to-jsx-string",
   "devDependencies": {
     "babel-cli": "^6.23.0",
     "babel-eslint": "^7.1.1",
     "babel-plugin-lodash": "^3.2.11",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.0",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-latest": "^6.24.0",
     "babel-preset-react": "^6.23.0",
-    "babel-preset-stage-2": "^6.22.0",
+    "babel-preset-stage-1": "^6.22.0",
     "babel-register": "^6.23.0",
     "conventional-changelog-cli": "^1.2.0",
     "doctoc": "^1.2.0",
